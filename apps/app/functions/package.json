@@ -1,0 +1,12 @@
+{
+  "name": "steps-backend-template",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node backend template. Publish builds this directory into a fixed Node 24 image and runs `node server.js` without npm install, so every dependency field must stay empty; the Dockerfile only serves the development preview.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "api:check": "node check-openapi.js",
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}

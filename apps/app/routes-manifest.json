@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "id": "home",
+      "title": "Home",
+      "path": "/",
+      "source": "system"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "appKey": "app",
+  "routes": [
+    {
+      "path": "/"
+    }
+  ],
+  "practiceEvents": [],
+  "contractRefs": [],
+  "serviceRefs": [],
+  "assetRefs": [],
+  "crossAppLinks": [],
+  "sourceRequirementIds": [
+    "purpose"
+  ]
+}

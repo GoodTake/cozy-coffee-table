@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "tables": {
+    "orders": {
+      "columns": {
+        "amount_ssu": { "nullable": false, "type": "text" },
+        "created_at": { "nullable": false, "type": "timestamptz" },
+        "id": { "nullable": false, "type": "uuid" },
+        "item_id": { "nullable": true, "type": "text" },
+        "item_name": { "nullable": false, "type": "text" },
+        "item_type": { "nullable": false, "type": "text" },
+        "metadata": { "nullable": false, "type": "jsonb" },
+        "status": { "nullable": false, "type": "text" },
+        "tx_hash": { "nullable": false, "type": "text" },
+        "updated_at": { "nullable": false, "type": "timestamptz" },
+        "wallet_address": { "nullable": false, "type": "text" }
+      },
+      "primaryKey": ["id"]
+    },
+    "users": {
+      "columns": {
+        "avatar_url": { "nullable": true, "type": "text" },
+        "created_at": { "nullable": false, "type": "timestamptz" },
+        "display_name": { "nullable": true, "type": "text" },
+        "updated_at": { "nullable": false, "type": "timestamptz" },
+        "wallet_address": { "nullable": false, "type": "text" }
+      },
+      "primaryKey": ["wallet_address"]
+    }
+  }
+}

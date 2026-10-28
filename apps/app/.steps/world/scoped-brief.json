@@ -1,0 +1,42 @@
+{
+"app": {
+"appKey": "app",
+"assetRefs": [],
+"boundaryReason": "The Cozy Coffee Table is one of the Apps of The Cozy Coffee Table.",
+"capabilities": [
+"server",
+"web"
+],
+"contractRefs": [],
+"dependsOnApps": [],
+"primaryAudience": "People who open this App",
+"purpose": "The Cozy Coffee Table.",
+"requirements": [
+{
+"id": "purpose",
+"text": "The Cozy Coffee Table."
+}
+],
+"routes": [
+{
+"path": "/",
+"purpose": "The Cozy Coffee Table."
+}
+],
+"serviceRefs": [],
+"title": "The Cozy Coffee Table"
+},
+"assessmentCriteria": [],
+"contracts": [],
+"dataModel": {
+"tables": []
+},
+"links": [],
+"missions": [],
+"schemaVersion": 2,
+"services": [],
+"world": {
+"locale": "en",
+"title": "The Cozy Coffee Table"
+}
+}

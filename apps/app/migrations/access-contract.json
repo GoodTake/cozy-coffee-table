@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "tables": {
+    "orders": {
+      "insert": "wallet_owner_paid_only",
+      "select": "wallet_owner"
+    },
+    "users": {
+      "delete": "wallet_owner",
+      "insert": "wallet_owner",
+      "select": "public",
+      "update": "wallet_owner"
+    }
+  }
+}
