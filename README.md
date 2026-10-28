@@ -1,11 +1,11 @@
 # The Cozy Coffee Table, on OpenStep
 
-This branch holds the same café website as [`main`](https://github.com/gaawai-l/cozy-coffee-table/tree/main), moved into OpenStep. We followed the public guide [Bring your existing code](https://docs.openstep.academy/cli/bring-your-code/) step by step, using the published CLI (`npm install -g openstep`, version 0.3.0).
+This branch holds the same café website as [`main`](https://github.com/GoodTake/cozy-coffee-table/tree/main), moved into OpenStep. We followed the public guide [Bring your existing code](https://docs.openstep.academy/cli/bring-your-code/) step by step, using the published CLI (`npm install -g openstep`, version 0.3.0).
 
-- **Before** ([`main`](https://github.com/gaawai-l/cozy-coffee-table/tree/main)): Vite + React + TypeScript pages and an Express server. Bookings are kept in a JSON file, and emails go out through nodemailer.
+- **Before** ([`main`](https://github.com/GoodTake/cozy-coffee-table/tree/main)): Vite + React + TypeScript pages and an Express server. Bookings are kept in a JSON file, and emails go out through nodemailer.
 - **After** (this branch): the folder as it looks once you have followed the guide.
 - **Live site**: https://app-730e27ff-9a67-46f8-a0b1-f9f169f36ca1.openstep.academy
-- **Every change in one view**: [compare `main` with `openstep`](https://github.com/gaawai-l/cozy-coffee-table/compare/main...openstep). Files that moved without changes show as renames, so the real edits stand out.
+- **Every change in one view**: [compare `main` with `openstep`](https://github.com/GoodTake/cozy-coffee-table/compare/main...openstep). Files that moved without changes show as renames, so the real edits stand out.
 
 ## What the platform now does for the site
 
